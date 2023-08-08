@@ -2,7 +2,7 @@ package animais.voadores;
 
 import animais.AnimalAB;
 
-public abstract class AnimalVoadorAB extends AnimalAB {
+ abstract class AnimalVoadorAB extends AnimalAB {
     public int quantidadeAsas;
     public double envergaduraAsa;
 
