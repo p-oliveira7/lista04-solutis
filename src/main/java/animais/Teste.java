@@ -39,8 +39,8 @@ public class Teste {
         pombo.habitat = "Urbano";
         pombo.tipoAnimal= "Voador";
         pombo.altura = 25;
-        pombo.quantidadeAssas = 2;
-        pombo.envergaduraAssa = 40;
+        pombo.quantidadeAsas = 2;
+        pombo.envergaduraAsa = 40;
         pombo.dormir();
         pombo.comer();
         pombo.voar();
