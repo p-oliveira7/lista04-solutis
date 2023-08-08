@@ -4,16 +4,19 @@ public class Leao extends AnimalTerrestreAB {
     @Override
     public void comer() {
         comidaIngerida += 1;
-        System.out.println("O Leão " + nome + " está comendo");
+        imprimirMensagem("está comendo");
     }
     @Override
     public void moverse() {
         caminhoPercorrido += 1;
-        System.out.println("O Leão "+ nome + " está comendo");
+        imprimirMensagem("está se movendo");
     }
     @Override
     public void dormir() {
         horasDormidas += 1;
-        System.out.println("O Leão " + nome + " está comendo");
+        imprimirMensagem("está dormindo");
+    }
+    private void imprimirMensagem(String mensagem) {
+        System.out.println("O Leão " + nome + " " + mensagem);
     }
 }
