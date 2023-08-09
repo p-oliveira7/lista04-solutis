@@ -5,7 +5,7 @@ public class Peixe extends AnimalMarinhoAB {
     @Override
     public void nadar() {
         caminhoPercorrido += 1;
-        imprimirMensagem("está comendo nadando");
+        imprimirMensagem("está nadando");
     }
 
     @Override
