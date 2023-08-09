@@ -14,6 +14,7 @@ public abstract class AnimalAB implements AnimalIF {
     public abstract void comer();
     public abstract void moverse();
     public abstract void dormir();
+
     public void imprimirInformacoes() {
         System.out.println(nome + " Tem "+ idade + " anos de idade " +
                 " Pesa " + peso + "kg" + " tem " + altura + " cm de altura" + ", seu habitat é "+ habitat + " e é do tipo "+ tipoAnimal+". Comeu "
