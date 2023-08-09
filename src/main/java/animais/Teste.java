@@ -5,7 +5,8 @@ import animais.terrestres.Gato;
 import animais.voadores.Pombo;
 
 public class Teste {
-
+    /* Optei por não utilizar Getters, Setters ou contrutores pela simplicidade do código,
+     são classes simples com pouca lógica que visam somente a exibição de informações. */
     public static void main(String[] args){
         var gato = new Gato();
         gato.nome = "Bichano";

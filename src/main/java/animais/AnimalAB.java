@@ -19,6 +19,6 @@ public abstract class AnimalAB implements AnimalIF {
         System.out.println(nome + " Tem "+ idade + " anos de idade " +
                 " Pesa " + peso + "kg" + " tem " + altura + " cm de altura" + ", seu habitat é "+ habitat + " e é do tipo "+ tipoAnimal+". Comeu "
                 + comidaIngerida + " vezes hoje, "
-                + "se moveu "+ caminhoPercorrido+ " km" + " e dormiu "+ horasDormidas +" hora .");
+                + "se moveu "+ caminhoPercorrido+ " km" + " e dormiu "+ horasDormidas +" horas .");
     }
 }
